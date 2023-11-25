@@ -1,8 +1,18 @@
-html{
+/* Default styles for all screen sizes */
+html {
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
-section{
-    height: 100vh;
-    scroll-snap-align: center;
+
+
+
+/* Media query for tablets and larger screens (768px and above) */
+@media (min-width: 768px) {
+    section {
+        height: 100vh;
+        scroll-snap-align: center;
+    }
 }
+
+
+
