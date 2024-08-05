@@ -31,7 +31,7 @@ const Work = () => {
                         Booking Application
                     </span>
                     <div className="pt-8 text-center">
-                        <a href="https://cruisekerala.online/">
+                        <a href="https://cruisekerala.netlify.app/">
                             <button className="text-center rounded-lg px-4 py-3 bg-white m-2 text-gray-700 font-bold text-lg "  >Demo</button>
                         </a>
                         <a href="https://github.com/RidinKakkoth/cruise_kerala_client">
