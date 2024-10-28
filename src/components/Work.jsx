@@ -4,7 +4,7 @@ import BellaImg from '../assets/bellacasa.png'
 import NETFLIXImg from '../assets/NETFLIX.png'
 import WEATHERImg from '../assets/WEATHER.png'
 import eatery from '../assets/eatery.png'
-import smartmahal from '../assets/smartmahal..png'
+import smartmahal from '../assets/smartmahal.png'
 
 const Work = () => {
   return (
