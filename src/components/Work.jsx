@@ -5,6 +5,7 @@ import NETFLIXImg from '../assets/NETFLIX.png'
 import WEATHERImg from '../assets/WEATHER.png'
 import eatery from '../assets/eatery.png'
 import smartmahal from '../assets/smartmahal.png'
+import doctor from '../assets/doctor.png'
 
 const Work = () => {
   return (
@@ -81,6 +82,26 @@ const Work = () => {
                     </div>
                 </div>
             </div>
+                      <div 
+            style={{backgroundImage:`url(${doctor})`,backgroundSize: 'contain', // Change this line
+            backgroundRepeat: 'no-repeat', // Add this line to prevent repeating the image
+            backgroundPosition: 'center', }}
+            className="shadow-lg shadow-[#040c16] group container bg-white rounded-md flex justify-center items-center mx-auto content-div">
+                {/* hover */}
+                <div className="opacity-0 group-hover:opacity-100">
+                    <span className="text-2xl font-bold text-white tracking-wider" >
+                        Doctor Appointment App
+                    </span>
+                    <div className="pt-8 text-center">
+                        <a href="">
+                            <button className="text-center rounded-lg px-4 py-3 bg-white m-2 text-gray-700 font-bold text-lg "  >Demo</button>
+                        </a>
+                        <a href="https://github.com/RidinKakkoth/CureConnect-frontend">
+                            <button className="text-center rounded-lg px-4 py-3 bg-white m-2 text-gray-700 font-bold text-lg ">Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <div 
             style={{backgroundImage:`url(${BellaImg})`,backgroundSize: 'contain', // Change this line
             backgroundRepeat: 'no-repeat', // Add this line to prevent repeating the image
@@ -101,26 +122,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div 
-            style={{backgroundImage:`url(${NETFLIXImg})`,backgroundSize: 'contain', // Change this line
-            backgroundRepeat: 'no-repeat', // Add this line to prevent repeating the image
-            backgroundPosition: 'center', }}
-            className="shadow-lg shadow-[#040c16] group container bg-white rounded-md flex justify-center items-center mx-auto content-div">
-                {/* hover */}
-                <div className="opacity-0 group-hover:opacity-100">
-                    <span className="text-2xl font-bold text-white tracking-wider" >
-                        Doctor Appointment App
-                    </span>
-                    <div className="pt-8 text-center">
-                        <a href="">
-                            <button className="text-center rounded-lg px-4 py-3 bg-white m-2 text-gray-700 font-bold text-lg "  >Demo</button>
-                        </a>
-                        <a href="https://github.com/RidinKakkoth/CureConnect-frontend">
-                            <button className="text-center rounded-lg px-4 py-3 bg-white m-2 text-gray-700 font-bold text-lg ">Code</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
+
             <div 
             style={{backgroundImage:`url(${WEATHERImg})`,backgroundSize: 'contain', // Change this line
             backgroundRepeat: 'no-repeat', // Add this line to prevent repeating the image
