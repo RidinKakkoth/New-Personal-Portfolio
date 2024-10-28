@@ -109,13 +109,13 @@ const Work = () => {
                 {/* hover */}
                 <div className="opacity-0 group-hover:opacity-100">
                     <span className="text-2xl font-bold text-white tracking-wider" >
-                        NETFLIX Clone
+                        Doctor Appointment App
                     </span>
                     <div className="pt-8 text-center">
-                        <a href="https://reactapp-netflix.netlify.app/">
+                        <a href="">
                             <button className="text-center rounded-lg px-4 py-3 bg-white m-2 text-gray-700 font-bold text-lg "  >Demo</button>
                         </a>
-                        <a href="https://github.com/RidinKakkoth/Netflix-clone-React-App">
+                        <a href="https://github.com/RidinKakkoth/CureConnect-frontend">
                             <button className="text-center rounded-lg px-4 py-3 bg-white m-2 text-gray-700 font-bold text-lg ">Code</button>
                         </a>
                     </div>
