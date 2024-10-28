@@ -4,6 +4,7 @@ import BellaImg from '../assets/bellacasa.png'
 import NETFLIXImg from '../assets/NETFLIX.png'
 import WEATHERImg from '../assets/WEATHER.png'
 import eatery from '../assets/eatery.png'
+import smartmahal from '../assets/smartmahal..png'
 
 const Work = () => {
   return (
@@ -61,7 +62,7 @@ const Work = () => {
                 </div>
             </div>
                       <div 
-            style={{backgroundImage:`url(${BellaImg})`,backgroundSize: 'contain', // Change this line
+            style={{backgroundImage:`url(${smartmahal.})`,backgroundSize: 'contain', // Change this line
             backgroundRepeat: 'no-repeat', // Add this line to prevent repeating the image
             backgroundPosition: 'center', }}
             className="shadow-lg shadow-[#040c16] group container bg-white rounded-md flex justify-center items-center mx-auto content-div">
