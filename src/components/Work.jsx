@@ -62,7 +62,7 @@ const Work = () => {
                 </div>
             </div>
                       <div 
-            style={{backgroundImage:`url(${smartmahal.})`,backgroundSize: 'contain', // Change this line
+            style={{backgroundImage:`url(${smartmahal})`,backgroundSize: 'contain', // Change this line
             backgroundRepeat: 'no-repeat', // Add this line to prevent repeating the image
             backgroundPosition: 'center', }}
             className="shadow-lg shadow-[#040c16] group container bg-white rounded-md flex justify-center items-center mx-auto content-div">
