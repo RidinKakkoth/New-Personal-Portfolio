@@ -73,7 +73,7 @@ const Work = () => {
                         Smart Mahal App 
                     </span>
                     <div className="pt-8 text-center">
-                        <a href="https://kavumpurammasjid.com/">
+                        <a href="https://masjid-frontend.onrender.com/">
                             <button className="text-center rounded-lg px-4 py-3 bg-white m-2 text-gray-700 font-bold text-lg "  >Demo</button>
                         </a>
                         <a href="/">
